@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.product-list {
+  margin-top: 0 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.product-list .product-card {
+  margin-top: 30px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.product-list .product-image-shell {
+  position: relative;
+  display: block;
+  -webkit-box-flex: 0;
+  padding: 25px !important;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding: 0;
+  background: #fff !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.product-list .product-image {
+  margin: auto !important;
+  height: 234px !important;
+  border-radius: inherit;
+}
+
+.product-list .product-content {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid rgba(34, 36, 38, 0.1);
+  height: 194px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  padding: 1em 1em;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 1em;
+  border-radius: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
+.fixed {
+  padding: 22px 0px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header:before {
+  height: 0 !important;
 }
+/*# sourceMappingURL=App.css.map */
