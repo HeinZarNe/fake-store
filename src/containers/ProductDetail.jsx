@@ -49,7 +49,7 @@ const ProductDetail = () => {
             <div className="ui vertical divider">AND</div>
             <div className="middle aligned row">
               <div className="column 1p" style={{ padding: "0 40px" }}>
-                <img className="ui fluid image" src={image} />
+                <img className="ui fluid image" src={image} alt={title} />
               </div>
               <div className="column rp" style={{ padding: "0 40px" }}>
                 <h1 style={{ textAlign: "left" }}>{title}</h1>
